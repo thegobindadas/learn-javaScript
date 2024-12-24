@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Javascript</h1>
+
+    Enter your name: <input type="text" name="name" id="input">
+
+    <p id="js1"></p>
+
+    <script>
+        document.addEventListener("input", input);
+        function input(){
+            let val= document.getElementById("input").value;
+
+            document.getElementById("js1").innerText= "You are writting: " + val.toUpperCase();
+        }
+
+
+
+    </script>
+</body>
+</html>

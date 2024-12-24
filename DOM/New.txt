@@ -1,0 +1,31 @@
+DOM- Document object model
+It is possible to get creat append or remove html elements using javascript.
+Dom represent the page so that program means javascript can change the document, structure, style & content.
+DOM work majorly in 3 things: i)method, ii)sub object, iii)properties
+
+
+Now to perform anything on DOM, it is divided into 4 stages:-
+i) finding html element (i can find element using tag-name, class-name, id)
+(Query Selector select html element by id, tag name, class name.)
+ii) Set different attribute & changing
+iii) Adding html
+iv) Remove html
+
+
+
+
+
+Event Listener:
+i) click
+ii) dbl click
+iii) onclick
+iv) mouse enter 
+v) mouse leave
+vi) mouse hover
+vii) input
+viii) change
+ix) blur
+x) onkey
+xi) keyup
+
+eventlistener always take two parameter

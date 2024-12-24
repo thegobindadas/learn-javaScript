@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+</head>
+<body>
+    <h1>Hello javascript</h1>
+    <p id="js"></p>
+    <button onclick="changeRed()" id="red">click me</button>
+    <button ondblclick="changeGreen()" id="green">double click</button>
+    <button onmouseenter="changePink()" id="pink">mouse enter</button>
+
+
+
+
+    <script>
+        function changeRed(){
+            document.getElementById("red").style.backgroundColor= "Red";
+        }
+
+        function changeGreen(){
+            document.getElementById("green").style.backgroundColor= "Green";
+        }
+
+        function changePink(){
+            document.getElementById("pink").style.backgroundColor= "Pink";
+        }
+
+
+
+    </script>
+
+    <!--
+    <script>
+        document.addEventListener("click", hello);
+        function hello(){
+            document.getElementById("js").innerHTML= "IRONMAN";
+        }
+    </script>
+    -->
+    
+</body>
+</html>

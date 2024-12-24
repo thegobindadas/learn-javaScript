@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Pert-01</title>
+</head>
+<body>
+    <h1 id="js">Hello world, javascript is easy to learn</h1>
+    <ul>
+        <li class="tech">Html</li>
+        <li class="tech">Css</li>
+        <li class="tech">js</li>
+    </ul>
+
+    <p>Lorem ipsum dolor </p>
+    <p>ipsum dolor </p>
+    <p>dolor </p>
+
+    <ol></ol>
+
+
+        <script>
+            // Root
+            // console.log(document)
+            // console.log(window.document)
+            // console.log(document.documentElement);
+
+
+            // Children
+            // console.log(document.body.children);
+            // console.log(document.body.firstChild);
+
+
+
+
+            // <!--Finding-->
+
+            // Finding the Element using id:
+            // let value= document.getElementById("js").innerHTML;
+            // let value= document.getElementById("js").innerText;
+            // console.log(value)
+
+
+            // Finding the Element using class:
+            // let value= document.getElementsByClassName("tech");
+            // console.log(value[0].innerText);
+
+
+            // Finding the Element using class:
+            // let value= document.getElementsByTagName("h1")[0].innerText;
+            // console.log(value);
+
+
+            // Finding the Element using querySelector and querySelectorAll:
+            // let value1= document.querySelector("#js").innerText;  // id-name
+            // let value2= document.querySelector(".tech").innerText;  // class-name
+            // let value3= document.querySelector("p").innerText;  // tag-name
+            // let value4= document.querySelectorAll("p");  // tag-name using querySelectorAll
+            // console.log(value4[2].innerText);
+
+
+
+
+            // <!--Set different attribute & changing-->
+
+            // add class using querySelectorAll
+            // let value= document.querySelectorAll("p");
+            // value[2].setAttribute("class", "box1")
+            // value[2].setAttribute("id", "box2")
+            // value[2].classList.add("box", "gobinda")
+            // value[2].textContent= "hello hitesh sir, thanks for javascript"
+
+
+
+            // <!--Adding html-->
+            /*
+            const list= `
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            `
+            let addList= document.querySelector("ol");
+            addList.innerHTML= list;
+            */
+
+            /*
+            let title= document.createElement("h1");
+            title.className= "title";
+            title.style.fontSize= "25px";
+            title.textContent= "Hello world, I am learning DOM manupulation in javascript"
+            //console.log(title);
+            document.body.appendChild(title);
+            */
+
+
+
+
+            // <!--Remove html-->
+            // let ul= document.querySelector("ul");
+            // let lists= document.querySelectorAll("li");
+            // for (let list of lists) {
+            //     ul.removeChild(list)
+            // }
+
+        </script>
+</body>
+</html>
